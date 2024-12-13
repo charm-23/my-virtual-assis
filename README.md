@@ -2,7 +2,7 @@
 
 **Anna** is a sophisticated virtual assistant designed to provide an engaging and intuitive conversational experience. Equipped with **speech recognition** and powered by a **large language model (LLM)** through the **Gemini API**, Anna enables users to interact naturally by asking questions on a variety of topics.
 
-![Screenshot](path-to-your-screenshot.png)
+![front](https://raw.githubusercontent.com/charm-23/my-virtual-assis/f40d1886c69a8a4592dd699a7a3691e4da926f26/Screenshot%202024-12-13%20at%209.49.07%20PM.png)
 
 ## **Key Features**
 
@@ -18,6 +18,17 @@
 3. The response is then delivered in a natural, conversational tone.
 
 ## **UI**
+
+## Requests for microphone access
+![microphone](https://raw.githubusercontent.com/charm-23/my-virtual-assis/f40d1886c69a8a4592dd699a7a3691e4da926f26/Screenshot%202024-12-13%20at%209.49.07%20PM.png)
+
+## When the user is speaking
+![speak](https://raw.githubusercontent.com/charm-23/my-virtual-assis/f40d1886c69a8a4592dd699a7a3691e4da926f26/Screenshot%202024-12-13%20at%209.49.07%20PM.png)
+
+## Displays the question asked and speaks the answer
+![microphone](https://raw.githubusercontent.com/charm-23/my-virtual-assis/f40d1886c69a8a4592dd699a7a3691e4da926f26/Screenshot%202024-12-13%20at%209.49.07%20PM.png)
+
+
 
 
 
