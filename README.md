@@ -23,7 +23,7 @@
 ![microphone](https://github.com/charm-23/my-virtual-assis/blob/main/Screenshot%202024-12-13%20at%209.49.19%20PM.png?raw=true)
 
 ## When the user is speaking
-![speak]()
+![speak](https://github.com/charm-23/my-virtual-assis/blob/main/Screenshot%202024-12-13%20at%209.49.28%20PM.png?raw=true)
 
 ## Displays the question asked and speaks the answer
 ![microphone]()
