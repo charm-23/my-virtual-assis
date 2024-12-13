@@ -20,17 +20,13 @@
 ## **UI**
 
 ## Requests for microphone access
-![microphone](https://raw.githubusercontent.com/charm-23/my-virtual-assis/f40d1886c69a8a4592dd699a7a3691e4da926f26/Screenshot%202024-12-13%20at%209.49.07%20PM.png)
+![microphone](https://github.com/charm-23/my-virtual-assis/blob/main/Screenshot%202024-12-13%20at%209.49.19%20PM.png?raw=true)
 
 ## When the user is speaking
-![speak](https://raw.githubusercontent.com/charm-23/my-virtual-assis/f40d1886c69a8a4592dd699a7a3691e4da926f26/Screenshot%202024-12-13%20at%209.49.07%20PM.png)
+![speak]()
 
 ## Displays the question asked and speaks the answer
-![microphone](https://raw.githubusercontent.com/charm-23/my-virtual-assis/f40d1886c69a8a4592dd699a7a3691e4da926f26/Screenshot%202024-12-13%20at%209.49.07%20PM.png)
-
-
-
-
+![microphone]()
 
 ## **Tech Stack**
 
