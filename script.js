@@ -1,6 +1,7 @@
 let btn = document.querySelector("#btn");
 let content = document.querySelector("#content");
 let voice = document.querySelector("#voice");
+let answerEl = document.querySelector("#answer");
 
 function speak(text) {
   let text_speak = new SpeechSynthesisUtterance(text);
@@ -70,13 +71,13 @@ async function takeCommand(message) {
     speak("opening youtube...");
     window.open("https://www.youtube.com", "_blank");
   } else if (message.includes("open google")) {
-    speak("opening youtube...");
+    speak("opening google...");
     window.open("https://google.com/", "_blank");
   } else if (message.includes("open linkedIn")) {
-    speak("opening youtube...");
+    speak("opening linkedin...");
     window.open("https://www.linkedin.com", "_blank");
   } else if (message.includes("open instagram")) {
-    speak("opening youtube...");
+    speak("opening instagram...");
     window.open("https://www.instagram.com", "_blank");
   } else if (message.includes("time")) {
     let time = new Date().toLocaleString(undefined, {
@@ -98,7 +99,7 @@ async function takeCommand(message) {
     window.open("whatsapp://");
   } else {
     try {
-      const response = await fetch("http://localhost:5000/ask", {
+      const response = await fetch("/ask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -109,8 +110,10 @@ async function takeCommand(message) {
       if (response.ok) {
         const data = await response.json();
         const answer = data.answer;
+        answerEl.innerText = answer;
         speak(answer);
       } else {
+        answerEl.innerText = "Sorry, I couldn't get an answer at the moment.";
         speak("Sorry, I couldn't get an answer at the moment.");
       }
     } catch (error) {
